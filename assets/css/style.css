@@ -1,0 +1,455 @@
+@charset "UTF-8";
+/*font-size*/
+/*$pageW: 1200px;*/
+/*圖片路徑*/
+/* color */
+/* @import "assets/css/style.css"; */
+.fa-header .branding a {
+  text-align: left;
+  text-indent: -9999px;
+  display: block;
+  overflow: hidden;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+  height: 0;
+  font-size: 0;
+  visibility: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+
+/** * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/) * Richard Clark (http://richclarkdesign.com) * http://cssreset.com */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+/* 
+html5doctor.com Reset Stylesheet v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+address {
+  font-style: normal;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+/*font 字型 --------------------*/
+/*思源黑體*/
+/*@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);*/
+/*_frame 架構 --------------------*/
+html, body {
+  font-family: Verdana, Arial, "Noto Sans TC", "Noto Sans SC", "Microsoft JhengHei";
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+body > form {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/*structure ------------*/
+.fa-header {
+  position: relative;
+}
+.fa-header .branding {
+  float: left;
+}
+.fa-header .branding a {
+  width: 200px;
+  height: 70px;
+  background: url("/assets/img/logo_home.png") no-repeat center center;
+}
+
+.fa-content .content-con {
+  min-height: 300px;
+  margin: 0 auto;
+  padding: 1px;
+}
+
+.fa-footer {
+  padding: 0.2em 0.5em;
+}
+.fa-footer .footer-con {
+  margin: 0 auto;
+}
+.fa-footer .copyright {
+  padding: 0.2em 1em;
+  font-size: 12px;
+}
+/* _forms 表單 --------------------*/
+[class^=forms-] input, [class^=forms-] select, [class^=forms-] textarea {
+  font-family: Verdana, Arial, "Noto Sans TC", "Noto Sans SC", "Microsoft JhengHei";
+}
+
+.forms-basic ::-moz-placeholder { /* CSS 3 標準 */
+  color: #c3bdbe;
+}
+
+.forms-basic :-ms-input-placeholder { /* CSS 3 標準 */
+  color: #c3bdbe;
+}
+
+.forms-basic ::placeholder { /* CSS 3 標準 */
+  color: #c3bdbe;
+}
+.forms-basic ::-webkit-input-placeholder { /* Chrome, Safari */
+  color: #c3bdbe;
+}
+.forms-basic :-ms-input-placeholder { /* IE 10+ */
+  color: #c3bdbe;
+}
+.forms-basic ::-moz-placeholder { /* Firefox 19+ */
+  color: #c3bdbe;
+  opacity: 1;
+}
+.forms-basic input, .forms-basic select, .forms-basic textarea {
+  font-size: 15px;
+  font-family: Verdana, Arial, "Noto Sans TC", "Noto Sans SC", "Microsoft JhengHei";
+  color: #666666;
+  background-color: #fff;
+  padding: 1em 1em;
+  margin: 1px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  /*關閉手機使用預設樣式*/
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  /*focus style*/
+}
+.forms-basic input:focus, .forms-basic select:focus, .forms-basic textarea:focus {
+  outline: none !important;
+  border-color: #679BB9;
+  box-shadow: 0 0 10px #94BAE6;
+}
+.forms-basic .inp-show {
+  display: inline-block;
+  padding: 0.35em 0.3em;
+}
+.forms-basic dt {
+  color: #414A53;
+  font-weight: 400;
+  margin-bottom: 0.8em;
+}
+.forms-basic dd {
+  margin-bottom: 1.5em;
+}
+
+.inp-note {
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0.6em 0.2em;
+  margin: 0 0.3em;
+}
+
+/*_nav 導覽列 -----------------------*/
+.nav-main {
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+.nav-main > ul > li {
+  display: inline-block;
+  margin: 0 0.1em;
+  position: relative;
+}
+.nav-main > ul > li > a {
+  text-decoration: none;
+  display: block;
+  padding: 0.8em 0.6em;
+  border-bottom: 2px solid transparent;
+}
+/*_btn 按鈕 --------------------*/
+[class^=btn-] {
+  font-family: Verdana, Arial, "Noto Sans TC", "Noto Sans SC", "Microsoft JhengHei";
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1px 4px;
+  text-align: center;
+}
+[class^=btn-]:hover {
+  text-decoration: none;
+}
+
+/*通用樣式*/
+.btn-basic {
+  background-color: #aaa;
+  padding: 0.5em 2.5em;
+  border-radius: 3px;
+}
+.btn-active {
+  background-color: #fff;
+  padding: 0.5em 2.5em;
+  border-radius: 3px;
+}
+.btn-block {
+  display: block !important;
+  margin: 0;
+}
+
+/*獨立樣式*/
+/*_list 列表樣式 ----------------------*/ /*_index 首頁內容 ----------------------*/
+.index {
+  text-align: center;
+}
+
+.index-tit {
+  font-size: 34px;
+  font-weight: normal;
+}
+.index-ill {
+  background: url(../img/ill_index_gift.png) no-repeat center top;
+  height: 345px;
+  margin: 30px 0;
+}
+.index-btn {
+  margin: 40px 0;
+}
+
+/*_media 裝置切換 --------------------------*/
+/* xs<576px	 sm≥576px	md≥768px	lg≥992px	xl≥1200px	xxl≥1400px */
+/* xl 大螢幕 */
+@media (min-width: 1200px) {
+  .xl-show {
+    display: block;
+  }
+  .xl-hide {
+    display: none;
+  }
+}
+/* lg 電腦 */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .lg-show {
+    display: block;
+  }
+  .lg-hide {
+    display: none;
+  }
+  /*basic --------------------*/
+}
+/* md 平板 */
+@media (min-width: 768px) and (max-width: 991px) {
+  .md-show {
+    display: block;
+  }
+  .md-hide {
+    display: none;
+  }
+  /*basic --------------------*/
+  /*com --------------------*/
+}
+/* sm 手機 */
+@media (min-width: 576px) and (max-width: 768px) {
+  .sm-show {
+    display: block;
+  }
+  .sm-hide {
+    display: none;
+  }
+  /*basic --------------------*/
+  /*com --------------------*/
+}
+/* xs 小手機 */
+@media (max-width: 576px) {
+  .xs-show {
+    display: block;
+  }
+  .xs-hide {
+    display: none;
+  }
+  /*basic --------------------*/
+  /*com --------------------*/
+}
